@@ -1,4 +1,4 @@
-package extractFunctionRefactoring
+package refactoring
 
 import (
 	"fmt"

@@ -1,4 +1,4 @@
-package inlineVariableRefactoring
+package refactoring
 
 type Order struct {
 	BasePrice int

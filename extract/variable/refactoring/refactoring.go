@@ -1,4 +1,4 @@
-package extractVariableRefactoring
+package refactoring
 
 import "math"
 

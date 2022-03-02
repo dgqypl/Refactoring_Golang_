@@ -1,4 +1,4 @@
-package inlineFunctionRefactoring
+package refactoring
 
 type Driver struct {
 	NumberOfLateDeliveries int

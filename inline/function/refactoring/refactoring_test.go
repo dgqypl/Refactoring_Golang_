@@ -1,4 +1,4 @@
-package inlineFunctionRefactoring
+package refactoring
 
 import (
 	"testing"
