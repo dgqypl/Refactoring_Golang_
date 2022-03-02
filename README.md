@@ -6,3 +6,4 @@ Refactoring Improving the Design of Existing Code Second Edition
 
 - [extract_function.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/extract/function/extract_function.go)（提炼函数）
 - [inline_function.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/inline/function/inline_function.go)（内联函数）
+- [extract_variable.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/extract/function/extract_variable.go)（提炼变量）
