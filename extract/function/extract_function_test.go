@@ -1,4 +1,4 @@
-package extractFunction
+package function
 
 import (
 	"testing"

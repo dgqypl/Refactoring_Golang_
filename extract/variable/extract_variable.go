@@ -1,4 +1,4 @@
-package extractVariable
+package variable
 
 import "math"
 

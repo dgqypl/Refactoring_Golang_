@@ -1,8 +1,7 @@
-// Package inlineFunction
 // Motivation:
 // Sometimes, come across a function in which the body is as clear as the name.
 // So, refactor the body of the code into something that is just as clear as the name.
-package inlineFunction
+package function
 
 type Driver struct {
 	NumberOfLateDeliveries int

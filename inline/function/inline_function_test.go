@@ -1,4 +1,4 @@
-package inlineFunction
+package function
 
 import (
 	"testing"
