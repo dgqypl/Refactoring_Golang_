@@ -1,4 +1,4 @@
-package function
+package _if
 
 import (
 	"testing"

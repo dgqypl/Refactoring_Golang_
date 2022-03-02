@@ -1,4 +1,4 @@
-package variable
+package ev
 
 import (
 	"testing"

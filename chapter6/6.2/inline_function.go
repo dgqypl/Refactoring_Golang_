@@ -1,7 +1,7 @@
 // Motivation:
 // Sometimes, come across a function in which the body is as clear as the name.
 // So, refactor the body of the code into something that is just as clear as the name.
-package function
+package _if
 
 type Driver struct {
 	NumberOfLateDeliveries int
