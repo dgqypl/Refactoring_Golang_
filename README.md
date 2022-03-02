@@ -24,3 +24,6 @@ Refactoring Improving the Design of Existing Code Second Edition
   - 迁移式做法
     - 重构前 [change_function_declaration.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/chapter6/6.5/migration/change_function_declaration.go)
     - 重构后 [refactoring.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/chapter6/6.5/migration/refactoring/refactoring.go)
+- 6.9 函数组合成类：
+  - 重构前 [combine_functions_into_class.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/chapter6/6.9/combine_functions_into_class.go)
+  - 重构后 [refactoring.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/chapter6/6.9/refactoring/refactoring.go)
