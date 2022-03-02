@@ -16,3 +16,10 @@ Refactoring Improving the Design of Existing Code Second Edition
 - 内联变量：
   - 重构前 [inline_variable.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/inline/variable/inline_variable.go)
   - 重构后 [refactoring.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/inline/variable/refactoring/refactoring.go)
+- 改变函数声明：
+  - 简单做法
+    - 重构前 [change_function_declaration.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/change/function/declaration/simple/change_function_declaration.go)
+    - 重构后 [refactoring.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/change/function/declaration/simple/refactoring/refactoring.go)
+  - 迁移式做法
+    - 重构前 [change_function_declaration.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/change/function/declaration/migration/change_function_declaration.go)
+    - 重构后 [refactoring.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/change/function/declaration/migration/refactoring/refactoring.go)
