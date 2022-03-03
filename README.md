@@ -2,9 +2,9 @@
 
 Refactoring Improving the Design of Existing Code Second Edition
 
-重构 改善既有代码的设计（第2版） Golang版本的代码示例
+### 重构 改善既有代码的设计（第2版） Golang版本的代码示例
 
-第6章 第一组重构
+#### 第6章 第一组重构
 - 6.1 提炼函数：
   - 重构前 [extract_function.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/chapter6/6.1/extract_function.go)
   - 重构后 [refactoring.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/chapter6/6.1/refactoring/refactoring.go)
@@ -27,3 +27,8 @@ Refactoring Improving the Design of Existing Code Second Edition
 - 6.9 函数组合成类：
   - 重构前 [combine_functions_into_class.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/chapter6/6.9/combine_functions_into_class.go)
   - 重构后 [refactoring.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/chapter6/6.9/refactoring/refactoring.go)
+
+#### 第7章 封装
+- 7.3 以对象取代基本类型：
+  - 重构前 [replace_primitive_with_obj.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/chapter7/7.3/replace_primitive_with_obj.go)
+  - 重构后 [refactoring.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/chapter7/7.3/refactoring/refactoring.go)
