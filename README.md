@@ -32,3 +32,9 @@ Refactoring Improving the Design of Existing Code Second Edition
 - 7.3 以对象取代基本类型：
   - 重构前 [replace_primitive_with_obj.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/chapter7/7.3/replace_primitive_with_obj.go)
   - 重构后 [refactoring.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/chapter7/7.3/refactoring/refactoring.go)
+
+#### 第10章 简化条件逻辑
+- 10.4 用多态处理变体逻辑：
+  - 2
+    - 重构前 [using_polymorphism_for_variation.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/chapter10/10.4/2/using_polymorphism_for_variation.go)
+    - 重构后 [refactoring.go](https://github.com/dgqypl/Refactoring_IDEC_golang/blob/main/chapter10/10.4/2/refactoring/refactoring.go)
