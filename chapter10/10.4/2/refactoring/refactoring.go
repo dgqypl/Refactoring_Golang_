@@ -55,12 +55,12 @@ func (r *rating) captionHistoryRisk() int {
 	return int(math.Max(float64(result), 0))
 }
 
-type profitFactor interface {
+type lengthFactor interface {
 	historyLengthFactor() int
 	voyageLengthFactor() int
 }
 
-func (r *rating) voyageProfitFactor(p profitFactor) int {
+func (r *rating) voyageProfitFactor(p lengthFactor) int {
 	result := 2
 	if r.voyage.Zone == "china" {
 		result += 1
@@ -104,7 +104,7 @@ func (e *experiencedChinaRating) captionHistoryRisk() int {
 	return int(math.Max(float64(result), 0))
 }
 
-func (e *experiencedChinaRating) voyageProfitFactor(p profitFactor) int {
+func (e *experiencedChinaRating) voyageProfitFactor(p lengthFactor) int {
 	return e.rating.voyageProfitFactor(p) + 3
 }
 
@@ -144,7 +144,7 @@ func Rating(voyage Voyage, histories []History) string {
 	return calculateValue(r.voyageProfitFactor, r.voyageRisk, r.captionHistoryRisk, r)
 }
 
-func calculateValue(voyageProfitFactor func(p profitFactor) int, voyageRisk func() int, captionHistoryRisk func() int, p profitFactor) string {
+func calculateValue(voyageProfitFactor func(p lengthFactor) int, voyageRisk func() int, captionHistoryRisk func() int, p lengthFactor) string {
 	vpf := voyageProfitFactor(p)
 	vr := voyageRisk()
 	chr := captionHistoryRisk()
